@@ -1,0 +1,236 @@
+
+
+
+
+@use '../custom' as *;
+
+.services{
+	margin: 8rem 0 6rem 0;
+}
+.services-box{
+	font-family: "Poppins", sans-serif;
+	padding-top: 3rem;
+}
+
+.ultimate-services{
+	padding-left: 4rem;
+}
+.ultimate-features{
+	font-family: "Poppins", sans-serif;
+	margin-top: 8rem;
+}
+
+.services-btn{
+	button{
+		margin-left: 0;
+		padding-left: 3.5rem;
+		padding-right: 3.5rem;
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.end-col{
+		padding-left: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1360px) {
+
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -22%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1350px) and (max-width: 1359px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -20%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1340px) and (max-width: 1349px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -19%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1320px) and (max-width: 1339px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -18%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1310px) and (max-width: 1319px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -17%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1300px) and (max-width: 1309px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -16%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1290px) and (max-width: 1299px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -15%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1280px) and (max-width: 1289px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -14%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1270px) and (max-width: 1279px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -13%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1260px) and (max-width: 1269px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -12%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1250px) and (max-width: 1259px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -11%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1240px) and (max-width: 1249px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -10%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1230px) and (max-width: 1239px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -9%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1220px) and (max-width: 1229px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -8%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1200px) and (max-width: 1219px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -6.5%;
+			top: -50px;
+		}	
+	} 
+}
+
+@media (min-width: 1180px) and (max-width: 1199px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -26%;
+		}	
+	} 
+}
+
+@media (min-width: 1170px) and (max-width: 1179px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -25%;
+		}	
+	} 
+}
+
+@media (min-width: 1160px) and (max-width: 1169px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -24%;
+		}	
+	} 
+}
+
+@media (min-width: 1150px) and (max-width: 1159px) {
+	.ultimate-pic{
+		img{
+			position: relative;
+			right: -23%;
+		}	
+	} 
+}
+
+
+@media (min-width: 995px) and (max-width: 1149px) {
+  .services-col {
+    width: 100%;
+    margin-top: 20px; 
+  }
+
+  .ultimate-pic {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

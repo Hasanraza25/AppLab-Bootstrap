@@ -1,0 +1,249 @@
+
+
+
+
+@use '../custom' as *;
+
+// Intro-section Typography
+
+.intros{
+	font-family: "Poppins", sans-serif;
+	h1{
+		font-size: 3.5rem;
+		font-weight: 600;
+		color: $primary;
+	}
+	p{
+		font-size: 1.15rem;
+		padding-top: 1rem;
+	}
+}
+
+// Features Typography
+
+.heading-para{
+	font-family: "Poppins", sans-serif;
+	h2{
+		font-size: 2.2rem;
+		color: $primary;
+		font-weight: 700;
+		width: 80%;
+		line-height: 1.3;
+	}
+	p{
+		color: $gray;
+		width: 90%;
+		margin-bottom: 5rem;
+	}
+}
+
+.features-info{
+	font-family: "Poppins", sans-serif;
+	padding-left: 2rem;
+	h4{
+		font-size: 1.3rem;
+		font-weight: 700;
+	}
+	p{
+		color: $gray;
+		width: 260px;
+		margin-bottom: 3rem;
+	}
+}
+.jackpots{
+	font-family: "Poppins", sans-serif;
+	h2{
+		font-size: 2.2rem;
+		width: 90%;
+		color: $primary;
+		font-weight: 700;		
+	}
+	p{
+		font-size: 1rem;
+		color: $gray;
+		padding: 2rem;
+		width: 90%;
+	}
+}
+.border-right{
+	border-right: 0.115rem solid #b9b9b8;
+	height: 100%;
+}
+
+// Services Typography
+
+.services-title{
+	font-family: "Poppins", sans-serif;
+	h2{
+		font-size: 2.2rem;
+		max-width: 440px;
+		color: $primary;
+		font-weight: 700;	
+	}
+	p{
+		font-size: 1rem;
+		color: $gray;
+		width: 58%;
+	}
+}
+
+.services-box{
+	h4{
+		padding-top: 2rem;
+		color: $primary;
+	}
+	p{
+		font-size: 1rem;
+		color: $gray;
+		width: 80%;
+		font-weight: 500;
+	}
+}
+
+.ultimate-features{
+	h2{
+		font-size: 2.2rem;
+		max-width: 350px;
+		color: $primary;
+		font-weight: 700;
+		@media(max-width: 450px){
+			text-align: start;
+		}
+	}
+	p{
+		font-size: 1rem;
+		color: $gray;
+		max-width: 400px;
+		font-weight: 500;
+		padding-top: 0.6rem;
+		text-align: start;
+		margin-bottom: 2rem;
+	}
+}
+
+
+.service-info{
+	font-family: "Poppins", sans-serif;
+	h4{
+		font-size: 1.3rem;
+		font-weight: 700;
+		width: 200px;
+		padding-top: 1.5rem;
+	}
+	p{
+		color: $gray;
+		width: 260px;
+		margin-bottom: 3rem;
+
+	}
+}
+
+// Payment Section
+
+.payment-title{
+	font-family: "Poppins", sans-serif;
+	h2{
+		font-size: 2.2rem;
+		width: 600px;
+		color: $primary;
+		font-weight: 700;	
+	}
+	p{
+		font-size: 1rem;
+		color: $gray;
+		width: 58%;
+	}
+}
+
+
+// Testimonials Section
+
+
+.testimonials-title{
+	h2{
+		font-size: 2.5rem;
+		color: $primary;
+		font-weight: 650;
+		line-height: 1.3;
+	}
+	p{
+		color: $gray;
+		width: 95%;
+		font-weight: 500;
+	}
+}
+
+// FAQ Section
+
+.faq-title{
+	font-family: "Poppins", sans-serif;
+	h2{
+		font-size: 2.5rem;
+		color: $primary;
+		font-weight: 650;
+		line-height: 1.3;
+	}
+	p{
+		font-size: 1rem;
+		color: $gray;
+		width: 58%;
+	}
+}
+
+// download section
+
+.download-title{
+	font-family: "Poppins", sans-serif;
+	h2{
+		font-size: 2.5rem;
+		color: $primary;
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+	}
+	p{
+		font-size: 0.85rem;
+		color: $gray;
+		font-weight: 500;
+		margin-bottom: 2.5rem;
+	}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+	.jackpots{
+		h2{		
+			padding-left: 5rem;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.jackpots{
+		h2{		
+			padding-left: 2rem;
+		}
+	}
+	.latest-code{
+		&--info{
+			h2{
+				width: 90%;
+			}
+		}
+	}
+	.services-title{
+		p{
+			width: 80%;
+		}
+	}
+	.payment-title{
+		h2{
+			width: 90%;
+		}
+		p{
+			width: 90%;
+		}
+	}
+}

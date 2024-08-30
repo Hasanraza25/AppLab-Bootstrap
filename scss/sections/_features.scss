@@ -1,0 +1,90 @@
+@use '../custom' as *;
+
+.features {
+  margin-top: 8rem;
+  .heading-para {
+    padding-top: 2rem;
+  }
+}
+
+.features-img img {
+  min-height: 800px;
+}
+
+.jackpots {
+  margin-top: 3rem;
+}
+
+.more-features {
+  margin-top: 3rem;
+  .icon {
+    margin-bottom: 1.8rem;
+  }
+  .features-info {
+    padding-left: 0;
+  }
+}
+
+.latest-code {
+  .heading-para {
+    margin-bottom: -3rem;
+  }
+  &--info {
+    margin-top: 3rem;
+    padding-left: 3rem;
+    button {
+      margin-left: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .features-img img {
+    min-height: auto; // Adjust the image height for smaller screens
+  }
+  
+  .heading-para {
+    text-align: center; // Center-align heading and paragraphs on mobile
+    padding-top: 1rem;
+  }
+
+  .features-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; // Center-align text in feature boxes
+    .icon {
+      margin-bottom: 1rem;
+      img {
+        width: 50px; // Scale down icons for mobile
+        height: auto;
+      }
+    }
+    .features-info {
+      padding-left: 0;
+      h4 {
+        font-size: 1.2rem; // Reduce font size for better fit on mobile
+      }
+      p {
+        font-size: 0.9rem; // Reduce paragraph font size as well
+      }
+    }
+  }
+
+  .latest-code {
+    flex-direction: column; // Stack content vertically for mobile
+    .latest-code--info {
+      padding-left: 0;
+      margin-top: 1.5rem; // Reduce the top margin for better fit
+      text-align: center; // Center-align content in latest code section
+    }
+  }
+}
+
+@media(max-width: 575px){
+  .latest-code{
+    h2{
+      margin-left: 10px;
+    }
+  }
+}

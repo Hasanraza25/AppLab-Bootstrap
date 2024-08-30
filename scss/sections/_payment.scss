@@ -1,0 +1,104 @@
+
+
+
+@use '../custom'as *;
+@use '../components/mixins' as *;
+
+.payment{
+	margin-bottom: 2rem;
+}
+
+.two-buttons{
+	border: 2px solid #ebebeb;
+	display: inline-block;
+	.btn-1{
+		margin-left: 0;
+		margin: 2px;
+		padding: 0.75rem 2.5rem;
+
+	}
+	.btn-2{
+		font-family: "Poppins", sans-serif;
+		padding: 2rem;
+		font-weight: 600;
+		a{
+			text-decoration: none;
+			color: $gray-1;
+
+		}
+	}
+}
+
+.payment-box{
+	font-family: "Poppins", sans-serif;
+	display: inline-block;
+	width: 300px;
+	h5{
+		color: $gray-1;
+		font-size: 18px;
+		span{
+			color: $primary;
+			font-size: 4rem;
+			font-weight: 700;
+			position: relative;
+			bottom: -5px;
+		}
+	}
+	h3{
+		font-size: 1.4rem;
+		color: $primary;
+		font-weight: 700;
+	}
+	p{
+		color: $gray-1;
+		position: relative;
+		top: -5px;
+		font-weight: 500;
+	}
+	ul{
+		list-style-type: none;
+		padding: 0;	
+		color: $gray-1;
+		li{
+			padding-top: 1.2rem;
+			font-weight: 500;
+			font-size: 16px;
+		}
+	}
+	button{
+		padding: 0.9375rem 3rem;
+		margin: 1rem 0 1.2rem 0;
+	}
+	div	{
+			padding-bottom: 1rem;
+		a{
+			text-decoration: none;
+			color: $secondary;
+			font-size: 15px;
+			font-weight: 500;
+			&:hover{
+				text-decoration: underline;
+			}
+		}	
+	}
+}
+
+.payment-box-2{
+	border: 2px solid $gray-200;
+	border-radius: 10px;
+}
+
+.payment-info{
+	@include gradient;
+	padding: 4rem;
+}
+
+.payment-info-2{
+	$background-color: #f4f7f9;
+}
+
+@media (max-width: 768px)  {
+	.payment-box-2 {
+		margin-top: 2rem;
+  }
+}

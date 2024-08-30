@@ -1,0 +1,28 @@
+
+
+
+@use '../custom' as *;
+
+.btn-rounded{
+	font-family: "Poppins", sans-serif;
+	padding: 0.9375rem 2rem;
+	margin-left: 2rem;
+	color: $white;
+	background-color: $secondary;
+	border: 2px solid $secondary;
+	outline: none;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-right: 2rem;
+	&:hover{
+		background-color: $white;
+		color: $secondary;
+		border: 2px solid $secondary;
+	}
+}
+
+@media (max-width: 990px) {
+	.btn-rounded{
+		margin-left: 0;
+	}
+}
