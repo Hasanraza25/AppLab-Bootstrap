@@ -40,11 +40,11 @@
 
 @media only screen and (max-width: 767px) {
   .features-img img {
-    min-height: auto; // Adjust the image height for smaller screens
+    min-height: auto; 
   }
   
   .heading-para {
-    text-align: center; // Center-align heading and paragraphs on mobile
+    text-align: center; 
     padding-top: 1rem;
   }
 
@@ -52,39 +52,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; // Center-align text in feature boxes
+    text-align: center; 
     .icon {
       margin-bottom: 1rem;
       img {
-        width: 50px; // Scale down icons for mobile
+        width: 50px; 
         height: auto;
       }
     }
     .features-info {
       padding-left: 0;
       h4 {
-        font-size: 1.2rem; // Reduce font size for better fit on mobile
+        font-size: 1.2rem; 
       }
       p {
-        font-size: 0.9rem; // Reduce paragraph font size as well
+        font-size: 0.9rem;
       }
     }
   }
 
   .latest-code {
-    flex-direction: column; // Stack content vertically for mobile
+    flex-direction: column;
     .latest-code--info {
-      padding-left: 0;
-      margin-top: 1.5rem; // Reduce the top margin for better fit
-      text-align: center; // Center-align content in latest code section
+      margin-top: 1.5rem; 
+    
     }
   }
 }
 
 @media(max-width: 575px){
   .latest-code{
-    h2{
-      margin-left: 10px;
-    }
+    
   }
 }

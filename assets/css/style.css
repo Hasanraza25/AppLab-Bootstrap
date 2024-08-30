@@ -12278,14 +12278,7 @@ textarea.form-control-lg {
     flex-direction: column;
   }
   .latest-code .latest-code--info {
-    padding-left: 0;
     margin-top: 1.5rem;
-    text-align: center;
-  }
-}
-@media (max-width: 575px) {
-  .latest-code h2 {
-    margin-left: 10px;
   }
 }
 .services {
